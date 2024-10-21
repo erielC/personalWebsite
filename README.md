@@ -8,6 +8,6 @@ Official Personal Website for Presenting Myself
 - Custom Domain & Uploaded to Github Pages
 
 **FUTURE Tasks TBD**
-- Update Pages: Course Work, Project & Clubs, Photos
+- Update Pages: Course Work, Project & Clubs, Tools & Software
 - Ensure seamless mobile use
 - Add light/dark feature to change color of content on website

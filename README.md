@@ -11,3 +11,5 @@ Official Personal Website for Presenting Myself
 - Update Pages: Course Work, Project & Clubs, Tools & Software
 - Ensure seamless mobile use
 - Add light/dark feature to change color of content on website
+- Add github & linked icon to be clicked on (temporary solution: regular links)
+- 

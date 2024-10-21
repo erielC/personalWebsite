@@ -5,36 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ecabrera - Aspiring CE</title>
     <link rel="stylesheet" type="text/css" href="../styles/home.css" />
-    <link
-      rel="icon"
-      type="image/png"
-      href="../media/favicon/favicon-48x48.png"
-      sizes="48x48"
-    />
-    <link rel="icon" type="image/svg+xml" href="../media/favicon/favicon.svg" />
-    <link rel="shortcut icon" href="../media/favicon/favicon.ico" />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="../media/favicon/apple-touch-icon.png"
-    />
-    <meta name="apple-mobile-web-app-title" content="MyWebSite" />
-    <link rel="manifest" href="../media/favicon/site.webmanifest" />
+    <link rel="icon" href="../images/favicon/favicon.ico" type="image/x-icon" />
   </head>
 
   <body>
     <div class="wrapper">
       <header>
         <div class="title-area">
-          <h1>erielcabrera</h1>
+          <a href="index.html"><h1>erielcabrera</h1></a>
           <p>Computer Engineering Student @ Florida International University</p>
         </div>
         <nav>
           <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Course Work</a></li>
-            <li><a href="#">Projects & Clubs</a></li>
-            <li><a href="#">Photos</a></li>
+            <li><a href="index.html">About</a></li>
+            <li><a href="courseWork.html">Course Work</a></li>
+            <li><a href="activities.html">Projects & Clubs</a></li>
+            <li><a href="tools.html">Tools & Software</a></li>
           </ul>
         </nav>
       </header>
@@ -52,6 +38,30 @@
               <p>
                 Hello! My name is Eriel Cabrera. I am currently studying
                 Computer Engineering @ (FIU) Florida International University.
+                Some of my areas of interest include aerospace, computer
+                technology software/hardware, quantum computing, artificial
+                intelligence, web development, mathematics, and reading. As of
+                [10.21.24] I am heavily involved in a rocketry club where I am
+                part of the avionics team resposible for developing a flight
+                computer. I have never worked with complicated
+                software/hardware, let alone electronics but I am extremely
+                excited to embark on this new journey. Some areas of work that I
+                am collaborating with other engineers are: PCB design said
+                computer and writing the software for operation during flight.
+                Other development experiences I had was a 36-hour hackathon
+                hosted by INIT FIU, my team and I identified a common issue
+                among FIU students—finding the best spots to study or grab a
+                cafecito near campus. To address this, we developed a web
+                platform where students can discover and review local cafes and
+                study spots within an 8-mile radius of FIU. As the lead backend
+                developer, I implemented user authentication with JavaScript and
+                MongoDB, ensuring only verified FIU students could post reviews,
+                and assisted with designing the database structure to manage
+                user data and reviews efficiently. I also contributed to the
+                front-end using HTML and CSS to create an intuitive user
+                experience for browsing and reviewing locations. This project
+                provided a community-driven solution and demonstrated my skills
+                in both full-stack development.
               </p>
               <br />
               <p>Contact: ecabr090 [at] fiu [dot] edu</p>
@@ -59,6 +69,12 @@
           </div>
         </div>
       </main>
+      <script>
+        // Used to be taken back up to the top of the page when it is reloaded
+        window.onbeforeunload = function () {
+          window.scrollTo(0, 0);
+        };
+      </script>
     </div>
   </body>
 </html>

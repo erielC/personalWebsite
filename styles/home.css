@@ -63,6 +63,7 @@ nav ul {
   flex-wrap: wrap;
 }
 
+
 nav ul li {
   margin-left: 20px;
 }
@@ -113,6 +114,32 @@ main p {
   height: auto;
   border-radius: 4px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+
+  .wrapper{
+    padding: 10px;
+  }
+  .content-wrapper, nav ul {
+    flex-direction: column; /* Stack items vertically */
+  }
+
+  .image-container {
+    width: 100%; /* Full width for smaller screens */
+  }
+
+  .text-container {
+    width: 100% !important; /* Force full width for smaller screens */
+  }
+
+
+  /* FIXED [DEBUGGING CODE IN CASE] text container is not full width] */
+
+  /* .text-container, .image-container {
+    outline: 2px solid red; 
+  } */
+
 }
 
 .text-container {

@@ -9,6 +9,6 @@ Official Personal Website for Presenting Myself
 
 **FUTURE Tasks TBD**
 - Update Pages: Course Work, Project & Clubs, Tools & Software
-- Ensure seamless mobile use
+- Ensure seamless mobile use (pending)
 - Add light/dark feature to change color of content on website
 - Add github & linked icon to be clicked on (temporary solution: regular links)
